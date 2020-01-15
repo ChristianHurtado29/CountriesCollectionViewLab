@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A0BF9D23CE8FC500A7B7D4 /* DetailedCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0BF9C23CE8FC500A7B7D4 /* DetailedCountryVC.swift */; };
 		13A1BFD723CE59CA00E5CF59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BFD623CE59CA00E5CF59 /* AppDelegate.swift */; };
 		13A1BFD923CE59CA00E5CF59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BFD823CE59CA00E5CF59 /* SceneDelegate.swift */; };
 		13A1BFDB23CE59CA00E5CF59 /* CountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BFDA23CE59CA00E5CF59 /* CountryVC.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13A0BF9C23CE8FC500A7B7D4 /* DetailedCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedCountryVC.swift; sourceTree = "<group>"; };
 		13A1BFD323CE59CA00E5CF59 /* CountriesCollectionViewLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesCollectionViewLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A1BFD623CE59CA00E5CF59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13A1BFD823CE59CA00E5CF59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				13A1BFF123CE639100E5CF59 /* CountryAPIClient.swift */,
 				13A1BFEF23CE60E700E5CF59 /* CountryModel.swift */,
 				13A1BFDA23CE59CA00E5CF59 /* CountryVC.swift */,
+				13A0BF9C23CE8FC500A7B7D4 /* DetailedCountryVC.swift */,
 				13A1BFDC23CE59CA00E5CF59 /* Main.storyboard */,
 				13A1BFED23CE600700E5CF59 /* CountryCVC.swift */,
 				13A1BFDF23CE59CC00E5CF59 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 				13A1BFD723CE59CA00E5CF59 /* AppDelegate.swift in Sources */,
 				13A1BFF223CE639100E5CF59 /* CountryAPIClient.swift in Sources */,
 				13A1BFD923CE59CA00E5CF59 /* SceneDelegate.swift in Sources */,
+				13A0BF9D23CE8FC500A7B7D4 /* DetailedCountryVC.swift in Sources */,
 				13A1BFEE23CE600700E5CF59 /* CountryCVC.swift in Sources */,
 				13A1BFF023CE60E700E5CF59 /* CountryModel.swift in Sources */,
 			);

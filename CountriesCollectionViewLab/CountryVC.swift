@@ -34,6 +34,14 @@ class CountryVC: UIViewController {
         countrySearch.delegate = self
         searchBarQuery(for: "uni")
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailedCountryVC = segue.destination as? DetailedCountryVC, let indexPath = collectionView.indexPathsForSelectedItems?.first else {
+            fatalError("Could not segue Country")
+        }
+        detailedCountryVC.selCountry = countries[indexPath.row]
+    }
+    
         
     func searchBarQuery(for search: String) {
      CountrySearchAPI.getCountries(for: search, completion: {[weak self] (result) in
