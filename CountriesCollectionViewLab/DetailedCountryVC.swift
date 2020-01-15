@@ -16,7 +16,7 @@ class DetailedCountryVC: UIViewController {
     @IBOutlet weak var countryFlag: UIImageView!
     
     var selCountry: Country?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,12 +35,7 @@ class DetailedCountryVC: UIViewController {
                 DispatchQueue.main.async {
                     self?.countryFlag.image = image
                 }
-                
             }
         }
     }
-    
-    
-    
-    
 }
