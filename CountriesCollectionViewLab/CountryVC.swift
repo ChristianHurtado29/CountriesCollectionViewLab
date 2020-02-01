@@ -42,7 +42,6 @@ class CountryVC: UIViewController {
         detailedCountryVC.selCountry = countries[indexPath.row]
     }
     
-        
     func searchBarQuery(for search: String) {
      CountrySearchAPI.getCountries(for: search, completion: {[weak self] (result) in
      switch result {
